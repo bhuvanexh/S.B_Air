@@ -1,0 +1,33 @@
+navbar  (home (hero) about us (") services(") product(") event(") contact us(footer)) 
+hero 
+about us 
+our services 
+our product (content ✔️)
+how we work yt link
+our team (content ✔️)
+event  (content ✔️)
+client say  (content ✔️)
+contact us hero
+contact us email (content ✔️)
+footer    (content ✔️)
+
+
+
+
+
+
+
+> products page better design
+  > parallax into lower
+> team page better design
+  > some pattern for bg
+> box between team page and event
+> event page better design
+  > some pattern for bg
+
+> identify a color theme for all fonts and card bg
+
+> services layer screen
+> counting done state
+> add more logos in carousel
+> complete footer data
