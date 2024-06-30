@@ -16,7 +16,7 @@ const Services = () => {
 
 
     return (
-        <div id='testimonial' className='scroll-snap relative serviceBg min-h-[500px] py-24 flex flex-col gap-16'>
+        <div id='services' className='scroll-snap relative serviceBg min-h-[500px] py-24 flex flex-col gap-16'>
             <div className='absolute inset-0 bg-[#0e031fbc] z-0 backdrop-blur-[2px]'></div>
 
             <div className='flex items-center justify-center py-5 z-10'>

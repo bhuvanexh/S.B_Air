@@ -8,7 +8,7 @@ const Impression = () => {
     const ref = useRef(null)
     const isInView = useInView(ref)
     return (
-        <div className='flex flex-col bg-white border-t border-black pt-16 items-center justify-center'>
+        <div id='impression' className='flex flex-col bg-white border-t border-black pt-16 items-center justify-center'>
             <div className='flex flex-col justify-center items-center gap-16'>
                 <div className='flex flex-col gap-4 items-center justify-center'>
                     <span className='text-3xl poppins-light'>FOLLOW OUR</span>

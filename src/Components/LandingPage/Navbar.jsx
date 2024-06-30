@@ -36,13 +36,13 @@ function Navbar({ loading }) {
 
 
     const handleScrollToNextSection = () => {
-        const sections = ["home", "aboutUs", "about", "howWeWork", "product", "team", "event", "testimonial", "contact"];
+        const sections = ["home", "aboutUs", "about", "howWeWork", "product", "team", "event", "services", "impression", "contact"];
         const currentYOffset = window.pageYOffset;
-        console.log(currentYOffset, 'offset');
 
         for (let i = 0; i < sections.length; i++) {
             const section = document.getElementById(sections[i]);
-            if (section && section.offsetTop > currentYOffset) {
+            if ((section) && (section.offsetTop > currentYOffset + 1)) {
+                console.log(currentYOffset, 'offset', section.offsetTop, (section.offsetTop >= currentYOffset), section);
                 section.scrollIntoView({ behavior: 'smooth' });
                 break;
             }
@@ -88,7 +88,7 @@ function Navbar({ loading }) {
                     style={{ scaleX }}
                 />
             </motion.div>
-            <motion.div
+            {scrollValue < 1 && <motion.div
                 className="fixed bottom-8 right-8 z-50 cursor-pointer"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -107,7 +107,7 @@ function Navbar({ loading }) {
                 >
                     <FaArrowAltCircleDown size={48} color="#f0a500" />
                 </motion.div>
-            </motion.div>
+            </motion.div>}
             <Outlet context={{ loading }} />
         </>
     );

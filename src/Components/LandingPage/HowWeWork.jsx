@@ -16,9 +16,9 @@ const HowWeWork = () => {
 
 
     return (
-        <div id='howWeWork' className='relative'>
-            <div className="absolute inset-0 z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"></div>
-            <div id='howWeWork' className='scroll-snap relative z-10 bg-mask flex pb-12 pt-20 h-[100vh] min-h[500px] justify-center'>
+        <div id='howWeWork' className='relative h-[100vh] min-h-[650px] flex'>
+            <div className="absolute inset-0 z-10 bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"></div>
+            <div className='scroll-snap relative z-10 bg-mask flex pb-12 pt-20 min-h-[500px] justify-center'>
                 <div className='w-1/3 flex items-center z-20 h-full justify-center relative'>
                     <img className='block max-w-full max-h-full' src={workers} alt="" />
                     <motion.div

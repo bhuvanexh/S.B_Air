@@ -31,10 +31,10 @@ const ContactUs = () => {
 
 
     return (
-        <div className='flex flex-col'>
+        <div id='contact' className='flex flex-col'>
             <div className='relative z-10 h-[600px] bg-[#58ACE6] getInTouchBg flex flex-col gap-16 items-center pt-[150px]'>
                 <div className="absolute inset-0 z-[2] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]" />
-                <div className="absolute opacity-0 top-0 z-0 h-screen w-screen rotate-180 bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]" />
+                <div className="absolute opacity-0 inset-0 z-0 rotate-180 bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]" />
                 <div className='flex w-[70%] p-4 z-10'>
                     <div className='flex flex-col gap-3 w-[50%] p-4'>
                         <h3 className='text-6xl text-black font-semibold raleway'>Get In Touch</h3>

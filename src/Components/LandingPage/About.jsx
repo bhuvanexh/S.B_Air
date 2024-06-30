@@ -6,7 +6,7 @@ import { useOutletContext } from 'react-router-dom'
 const About = () => {
 
     return (
-        <div id='about' className='scroll-snap h-[100vh] min-h-[500px] pt-[20px] bg-[#F8F8F8] flex flex-col relative items-center justify-center'        >
+        <div id='about' className='scroll-snap h-[100vh] min-h-[600px] pt-[20px] bg-[#F8F8F8] flex flex-col relative items-center justify-center'        >
             {/* <div className='relative z-10 w-5/6 mx-auto flex flex-col gap-12 grow justify-center items-center text-center'>
                 <p className='stroke bg-slate-800 px-3 py-2 text-[42px] text-[#f2f5f8] poppins-medium uppercase'>
                     Industry-Leading Air Compressors

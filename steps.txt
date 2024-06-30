@@ -31,3 +31,6 @@ footer    (content ✔️)
 > counting done state
 > add more logos in carousel
 > complete footer data
+
+> fix arrow
+> fix overflow-x
